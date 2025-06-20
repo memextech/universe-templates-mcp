@@ -1,0 +1,9 @@
+firebase-admin>=6.9.0
+mcp>=1.9.4
+pygit2>=1.18.0
+requests>=2.32.4
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+httpx>=0.25.0
+starlette>=0.27.0
+sse-starlette>=2.0.0

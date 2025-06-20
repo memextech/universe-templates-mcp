@@ -1,0 +1,22 @@
+[project]
+name = "universe-templates"
+version = "0.1.0"
+description = "MCP server for managing Memex universe templates"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+ "firebase-admin>=6.9.0",
+ "mcp>=1.9.4",
+ "pygit2>=1.18.0",
+ "requests>=2.32.4",
+]
+[[project.authors]]
+name = "davidvgilmore"
+email = "dvg@davidvgilmore.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+universe-templates = "universe_templates:main"
